@@ -1,8 +1,8 @@
 //mengembalikan element
 const judul = document.getElementById("judul");
-judul.style.color = "red";
-judul.style.backgroundColor = "gray";
-judul.innerHTML = "Fachrul Faathirullah";
+// judul.style.color = "red";
+// judul.style.backgroundColor = "gray";
+judul.innerHTML = "<em>Fachrul Faathirullah</em>";
 
 // //document.getElementsByTagName
 // const p = document.getElementsByTagName("p");
@@ -28,3 +28,10 @@ const sectionB = document.querySelector("section#b");
 const p4 = sectionB.getElementsByTagName("p")[0];
 p4.style.color = "green";
 p4.style.fontSize = "24px";
+
+const sectionA = document.querySelector("section#a");
+
+sectionA.innerHTML = " hellow world";
+
+const judul1 = document.getElementsByTagName("h1")[0];
+judul1.setAttribute("name", "fachrul");
